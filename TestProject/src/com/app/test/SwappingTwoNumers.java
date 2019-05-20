@@ -15,10 +15,14 @@ public class SwappingTwoNumers {
 		b = a - b;
 		a = a + b;
 		*/
-		
+		/*
 		a = a * b;
 		b = a / b;
-		a = a / b;
+		a = a / b;*/
+		
+		a = a ^ b;
+		b = a ^ b;
+		a = a ^ b;
 		
 
 		System.out.println("AFTER");
