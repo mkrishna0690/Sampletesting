@@ -11,9 +11,14 @@ public class SwappingTwoNumers {
 		System.out.println("--A--:="+a);
 		System.out.println("--B--:="+b);
 		
-		a = a + b;
+		/*a = a + b;
 		b = a - b;
 		a = a + b;
+		*/
+		
+		a = a * b;
+		b = a / b;
+		a = a / b;
 		
 
 		System.out.println("AFTER");
